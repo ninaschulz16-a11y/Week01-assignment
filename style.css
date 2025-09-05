@@ -1,7 +1,4 @@
 header {
-    position:fixed;
-    color:green;
-    height: fit-content;
-    width: 20px;
-    
+   border-radius:20px;
+   
 }
