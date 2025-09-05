@@ -1,4 +1,6 @@
 header {
    border-radius:20px;
-   
+   border-color:yellow;
+
 }
+*{scroll-behavior: smooth;}
