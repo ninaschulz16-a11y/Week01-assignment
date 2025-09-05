@@ -1,6 +1,22 @@
-header {
-   border-radius:20px;
-   border-color:yellow;
-   padding:20px
+.headbox {
+   background-color: yellow;
+
 }
 *{scroll-behavior: smooth;}
+
+.bandeira {
+background-image: url("./imagens/bandeira.jpg");
+background-size: cover;
+height: 100vh;
+}
+.brigadeiro {
+    background-image: url("./imagens/brigadeiro.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+.coxinha {
+    background-image: url("./imagens/coxinha.jpg");
+    background-size: cover;
+    height:100vh;
+}
