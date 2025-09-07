@@ -1,22 +1,58 @@
-.headbox {
-   background-color: yellow;
+
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-*{scroll-behavior: smooth;}
+
+header {
+    
+position:fixed;
+color:rgb(235, 152, 58);
+padding: 2.5rem 3rem;
+width: 100%;
+z-index: 1;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+gap: 3rem;
+align-items: flex-end;
+
+background: rgba(7, 139, 47, 0.6);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+
+}
 
 .bandeira {
 background-image: url("./imagens/bandeira.jpg");
 background-size: cover;
 height: 100vh;
+
 }
 .brigadeiro {
     background-image: url("./imagens/brigadeiro.jpg");
     background-size: cover;
     height: 100vh;
+   
 
 }
 .coxinha {
     background-image: url("./imagens/coxinha.jpg");
-    background-size: cover;
+    background-size:cover;
     height:100vh;
+
+
 }
+.cta.box {
+position: absolute;
+
+}
+
