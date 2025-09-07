@@ -20,9 +20,7 @@ flex-wrap: wrap;
 justify-content: space-between;
 gap: 3rem;
 align-items: flex-end;
-
 background: rgba(7, 139, 47, 0.6);
-
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
@@ -37,39 +35,26 @@ nav {
     text-transform: uppercase;
     align-items: center;
 }
-.main_image {
-position: relative;
-background-size: cover;
-background-position: left;
-height: 100vh;
-border-bottom: white 2px solid;
 
-}
 .bandeira {
 background-image: url("./imagens/bandeira.jpg");
 height: 100vh;
 background-size: cover;
+position: relative;
 
 }
 .brigadeiro {
     background-image: url("./imagens/brigadeiro.jpg");
     height: 100vh;
     background-size: cover;
+    position: relative;
 }
 .coxinha {
     background-image: url("./imagens/coxinha.jpg");
    height: 100vh;
    background-size: cover;
+   position: relative;
 }
-
-.mainline {
-    text-transform: uppercase;
-    font-weight: 100;
-    opacity: 1;
-    font-size: 1.2rem;
-
-}
-
 
 
 footer {
@@ -80,7 +65,7 @@ footer {
 
 }
 .cta-box {
-position: absolute;
+position:absolute;
 bottom:10%;
 left:3rem;
 color:rgb(235, 152, 58);
@@ -92,25 +77,11 @@ background-color: rgb(249, 249, 250);
 padding:1rem;
 
 }
-.cta-box2 {
-position: absolute;
-bottom:30%;
-left:3rem;
-color:rgb(235, 152, 58);
-display:flex;
-flex-direction: column;
-gap:0.9rem;
-max-width: 80%;
-background-color: rgb(249, 249, 250);
-padding:1rem;
+.mainline {
+    
+    text-transform: uppercase;
+    font-weight: 100;
+    opacity: 1;
+    font-size: 1,2rem;
+
 }
-.cta-box3 {position: absolute;
-bottom: 20%;
-left:3rem;
-color:rgb(235, 152, 58);
-display:flex;
-flex-direction: column;
-gap:0.9rem;
-max-width: 80%;
-background-color: rgb(249, 249, 250);
-padding:1rem;}
