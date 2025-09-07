@@ -51,8 +51,24 @@ height: 100vh;
 
 
 }
-.cta.box {
-position: absolute;
 
+.cta-box {
+position: absolute;
+bottom:10%;
+left:3rem;
+color:rgb(235, 152, 58);
+display:flex;
+flex-direction: column;
+gap:0.9rem;
+max-width: 80%;
+background-color: rgb(249, 249, 250);
+padding:1rem;
 }
 
+footer {
+    background:darkgreen;
+    text-align:center;
+    color:white;
+    padding:45px;
+
+}
